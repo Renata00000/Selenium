@@ -10,7 +10,7 @@ public class HelloWorldSelenium {
 @Test
 public void hello(){
     // passando o caminho do meu driver para o selenium
-    System.setProperty("webdriver.chrome.driver", "../driver/chomedriver-mac-x64/chromedriver");
+    System.setProperty("webdriver.chrome.driver", "../driver/chromedriver-mac-x64/chromedriver");
 //  abrir o navegador chrome
     WebDriver browser = new ChromeDriver();
 //    nessa pagina
